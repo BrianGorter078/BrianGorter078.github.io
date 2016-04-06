@@ -5996,6 +5996,14 @@ button.close {
   position: relative;
   padding: 20px;
 }
+
+@media screen and (min-width: 768px)
+{
+  .modal-body{
+    width: 600px;
+  }
+}
+}
 .modal-footer {
   padding: 20px;
   text-align: right;
