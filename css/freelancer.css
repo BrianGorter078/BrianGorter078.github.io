@@ -176,8 +176,8 @@ section {
 }
 
 section h2 {
-    margin: 0;
     font-size: 3em;
+    margin-bottom: 4%;
 }
 
 section.success {
@@ -465,10 +465,26 @@ strong {
   font-size: 13px;
 }
 
+
+.modal-body
+{
+  position: relative;
+}
+
+z{
+  font-size: 20px;
+}
+
+/*
+Responsice changes
+*/
 @media(min-width:768px) {
   .portfolio-modal .modal-content h2 {
       margin: 0;
       font-size: 3em;
+  }
+  z{
+    font-size: 30px;
   }
 
   p{
@@ -495,9 +511,4 @@ strong {
     margin-top: 2%;
   }
 
-}
-
-.modal-body
-{
-  position: relative;
 }
